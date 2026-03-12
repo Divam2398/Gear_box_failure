@@ -12,7 +12,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("gearbox_failure_model.pkl")
+model = joblib.load("gearbox_failure_prediction.pkl")
 
 # Title
 st.title("Gearbox Failure Prediction System")
